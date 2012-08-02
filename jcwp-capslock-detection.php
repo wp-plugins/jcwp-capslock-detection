@@ -56,7 +56,7 @@
     add_action('login_head','jcorgcld_inclscript',20);
     function jcorgcld_inclscript() {
         wp_enqueue_script('jquery');
-        wp_enqueue_script('jcorgcld_script',plugins_url("jccapslock.js",__FILE__));
+        wp_enqueue_script('jcorgcld_script',plugins_url("jccapslock.js",__FILE__),array("jquery"));
         wp_enqueue_style('jcorgcld_styles',plugins_url("jccapslock.css",__FILE__));
         if(get_option('jcorgcld_active') == "1") {
         ?> 
