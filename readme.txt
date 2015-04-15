@@ -5,7 +5,7 @@ Donate link:  http://jaspreetchahal.org/wordpress-caps-lock-detection-plugin-for
 Tags: caps lock, tool tip, password field
 Requires at least: 2.8
 Version: 1.09
-Tested up to: 3.4.1
+Tested up to: 4.2
 Stable tag: 1.09
 
 This plugin shows a tooltip when user's have their CAPS lock on while typing their password to login.
